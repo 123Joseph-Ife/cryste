@@ -8,7 +8,7 @@ const Header = () => {
                 Cryste Emmanuel
             </a>
             <div
-                className={open === "open" ? "hamburger" : "hamburger active"}
+                className={open === "open" ? "hamburger active" : "hamburger"}
                 onClick={() =>
                     open === "open" ? setOpen("close") : setOpen("open")
                 }
