@@ -1,0 +1,95 @@
+#root {
+  width: 100%;
+}
+.landing {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  grid-template-areas:
+  "image-one image-one image-one"
+  "image-two image-two image-two"
+  "image-three image-three image-three"
+  "image-four image-four image-four"
+  "title title title"
+  "image-five image-five image-five"
+  ;
+}
+.landing h1 {
+  grid-area: title;
+  text-align: center;
+  z-index: 1;
+
+}
+.landing-image {
+  grid-column: 1 / -1 !important;
+  grid-row: image-one / image-five !important;
+  border-radius: 30px;
+  opacity: .5;
+  z-index: -1;
+}
+.hamburger {
+  height: 30px;
+  width: 50px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  z-index: 12;
+}
+.name {
+  z-index: 12;
+}
+.hamburger span {
+  width: 100%;
+  height: 6px;
+  background-color: #fff;
+}
+.tool-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.tools .tool-holder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+.tool {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  background: linear-gradient(45deg, #c176ff, #ff8547);
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+}
+.img-part {
+  width: 50%;
+}
+.txt {
+  width: 50%;
+}
+.info h2 {
+  width: 100%;
+}
+.about h1 {
+  width: 100%;
+}
+.about p {
+  text-align: left;
+}

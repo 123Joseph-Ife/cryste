@@ -1,0 +1,86 @@
+.all-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-wrap-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.left-flex {
+    display: flex;
+    justify-content: left;
+}
+.sb-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-wrap-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+.sp-bt {
+  justify-content: space-between;
+}
+.pad {
+  padding: 20px 150px;
+}
+.txt-ct {
+  text-align: center;
+}
+.txt-lft {
+  text-align: left;
+}
+.gp-10 {
+  gap: 10px;
+}
+.gp-20 {
+  gap: 20px;
+}
+.gp-30 {
+  gap: 30px;
+}
+.gp-50 {
+  gap: 50px;
+}
+.theme {
+  color: #161513;
+}
+.theme-background {
+  background-color: #161513;
+}
+.big-font {
+  font-size: 3.5rem;
+}
+.small-font {
+  font-size: 3rem;
+}
+.big-text {
+  font-size: 1.2rem;
+}
+.image {
+  background-color: #161513;
+  /* //gradient */
+  background-color: #b16cea;
+  background-color: #ff8e54;
+}
+.gradient-color {
+  background: linear-gradient(45deg, #c176ff, #ff8547);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.green {
+  color: #2c2 !important;
+}
