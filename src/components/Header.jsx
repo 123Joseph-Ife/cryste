@@ -17,7 +17,7 @@ const Header = () => {
                 <span></span>
                 <span></span>
             </div>
-            <ul className={open === "open" ? "all-flex gp-30" : "ul-active"}>
+            <ul className={open === "open" ? "ul-active" : "all-flex gp-30"}>
                 <li>
                     <a href="/">Home</a>
                 </li>
